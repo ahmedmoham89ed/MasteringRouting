@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+nav .active{
+    color:#f6f6f6;
+    background-color: #0369a1;
+    padding: 8px 14px;
+    border-radius:50px;
+}
+.naviegate{
+    width: 300px;
+    background-color: #0c4a6e;
+    border-bottom-right-radius: 20px;
+
+}
+.naviegate .active{
+    color:aliceblue;
+    background-color: #0369a1;
+    border-radius: 5px;   
+}
+.naviegate ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 25px;
+    color: white;
+    font-size: 20px;
+}
